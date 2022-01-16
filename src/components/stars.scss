@@ -1,0 +1,17 @@
+ 
+  
+  @keyframes animStar {
+    from {
+      transform: translateY(0px);
+    }
+  
+    to {
+      transform: translateY(-2000px);
+    }
+  }
+
+  .background {
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #444 90%);
+    height: 100vh;
+}
